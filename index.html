@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chato">
+    <h1>Faça sua compra online!</h1>
+    </div>
+
+    <div class="form">
+    <form id="login">
+        <h2>Login</h2>
+        <input type="text" placeholder="email" id="email">
+        <br/>
+        <input type="password"
+        placeholder="senha" id="senha">
+        <br/>
+        <input type="submit" onclick="logar()"> 
+
+    </form>
+    </div>
+     
+<div class="store">
+    <img  src="imagens/store-g39ca9c8f5_640.png" alt="image/png">
+</div>
+<script>
+    function logar(){
+        var login = document.getElementById('email').value;
+        var senha = document.getElementById('senha').value;
+
+        if(email == "mercado" && senha == "mercado"){
+            alert("sucesso");
+        }else{
+            alert("usuario ou senha incorretos");
+        }
+    }
+
+</script>
+
+</body>
+</html>

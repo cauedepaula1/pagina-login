@@ -1,0 +1,37 @@
+body{
+
+    display: flex;
+    background-color: rgb(17, 154, 191);
+}
+.chato{
+    position: fixed;
+    color: white;
+    padding-top: 50px;
+    margin-left: 150px;
+   display: grid;
+}
+.form{
+    color: white;
+    padding-left: 200px;
+    padding-top: 200px;
+    padding-right: 220px;
+    display: flex;
+}
+img{
+    position: fixed;
+    padding-right: 0px;
+    display: flex;
+    padding-left: 100px;
+}
+h2{
+    padding-left: 50px;
+}
+
+@media screen and (max-width:1120px){
+    img{
+        padding-right: 50px;
+    }
+}
+
+
+
